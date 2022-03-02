@@ -9,7 +9,7 @@
 3. Ensure the repeating tasks are automated from month-to-month report
 4. Insights from the visualization should help with sales strategies
 
-## Objective 1: Create steps that is required to turn raw data into usable insight
+## Method
 ### Step 1: Getting data and uploading it into excel using power query
 - The dataset was downloaded from https://www.kaggle.com/sinjoysaha/sales-analysis-dataset in csv file 
 
@@ -33,7 +33,7 @@
 
 ![image](https://user-images.githubusercontent.com/53467152/155060294-9fadbed0-8096-470e-9ce2-e0449374a978.png)
 - Figure 3: The cleaned dataset
-## Objective 2: Create a summary on the findings from the sales data
+
 ### Step 3: Create PivotTables and Pivot Charts while recording it in Macros
 - To record the steps applied just go to Developer ribbon> Code> Record Macro and enter the appriota name and description
 - Important: Save it into Personal Macro Workbook to apply it in different workbook later
@@ -49,7 +49,6 @@
 
 - Suggestion: Creating geographical visaulization helps to get insight on how each branch are performing
 
-## Objective 3:  Ensure the repeating tasks are automated from month-to-month report
 ### Step 5: Using Power Query and VBA Macros to automate report
 - The automation reduces the steps required into two major step: cleaning & transformation and Visualization
 - Once the loading steps for the new dataset are done, to apply it the steps in the Power Query editor for the previous dataset can be copied.
@@ -77,7 +76,6 @@ Figure 8: March report
 - For this project, January, February and March dataset are the only one used
 - Figure 5,7 and 8 are the reports from the said datasets
 
-## Objective 4: Insights from the visualization should help with sales strategies
 ## Conclusion
 - The top perfoming products that generate huge sales are MacBook Pro Laptop, iPhone, Google Phone and ThinkPad Laptop. This trend was consistent from January to March 2019.
 - In term of quantity ordered, batteries and USB cables are the products that was sold in higher amount.
